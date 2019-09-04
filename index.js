@@ -80,7 +80,7 @@ async function getLengthSum(dirname) {
 
     const info = await ffprobe(file, { path: static.path });
 
-    if ( ! info.streams || ! info.streams.length || (! info.streams[0].duration && ! info.streams[0].tags && ! info.streams[0].tags.DURATION) ) {
+    if ( ! info.streams || ! info.streams.length || (! info.streams[0].duration && (! info.streams[0].tags || ! info.streams[0].tags.DURATION)) ) {
 
       skipped++;
       console.log(`File "${file}" was skipped because its tags could not be read!`);
