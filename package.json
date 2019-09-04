@@ -1,6 +1,6 @@
 {
   "name": "durscan",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Scans a directory for video files and returns the sum of all the file durations.",
   "main": "index.js",
   "scripts": {
