@@ -9,10 +9,10 @@
   "author": "Ramtin Soltani <ramtin@chiselpowered.com>",
   "license": "MIT",
   "dependencies": {
+    "chalk": "^2.4.2",
     "commander": "^3.0.1",
-    "ffprobe": "^1.1.0",
-    "ffprobe-static": "^3.0.0",
-    "fs-extra": "^8.1.0"
+    "fs-extra": "^8.1.0",
+    "get-video-duration": "^1.0.3"
   },
   "bin": {
     "durscan": "./index.js"
