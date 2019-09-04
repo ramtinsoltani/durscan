@@ -1,0 +1,29 @@
+{
+  "name": "durscan",
+  "version": "1.0.0",
+  "description": "Scans a directory for video files and returns the sum of all the file durations.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ramtin Soltani <ramtin@chiselpowered.com>",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^3.0.1",
+    "ffprobe": "^1.1.0",
+    "ffprobe-static": "^3.0.0",
+    "fs-extra": "^8.1.0"
+  },
+  "bin": {
+    "durscan": "./index.js"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/ramtinsoltani/durscan.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ramtinsoltani/durscan/issues"
+  },
+  "homepage": "https://github.com/ramtinsoltani/durscan#readme"
+}
